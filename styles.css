@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 90px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: rgb(2, 7, 62);
+}
+
+header{
+    margin: 0 2px;
+    padding-top: 5px;
+    width: 100%;
+    position: static;
+    background-color: white;
+}
+ 
+
+header li a{
+    color: rgb(2, 7, 62);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+}
+
+
+header hr{
+    width: 100%;
+}
+
+.page-one img{
+    margin: 30px 118px;
+}
+
+.catch-phrase{
+    margin: 0 118px;
+    color: rgb(28, 31, 65);
+}
+
+.catch-phrase p{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#cards{
+    margin-top: 10px;
+    align-content: center;
+}
+
+.border {
+    width: 10px;
+    height: 380px;
+    border-radius: 25px;
+    background-color: rgb(237, 237, 245);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.border img{
+    margin: 5px;
+    align-items: center;
+}
+
+.border h1{
+    color:rgb(2, 7, 62) ;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.border h5{
+    color: #43414e;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+
+.container-fluid{
+    margin: 40px 50px;
+}
+
