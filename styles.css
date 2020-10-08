@@ -11,6 +11,7 @@ body{
     font-weight: 600;
     background-color: #ffffff;
     color: rgb(2, 7, 62);
+    
 }
 
 header{
@@ -53,15 +54,16 @@ header hr{
 }
 
 #cards{
-    margin-top: 10px;
-    align-content: center;
+   margin: 40px 100px;
 }
 
 .border {
-    width: 10px;
-    height: 380px;
-    border-radius: 25px;
-    background-color: rgb(237, 237, 245);
+    position: relative;
+    background: rgb(240, 243, 248);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(219, 234, 255);
+    border-radius: 50px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -90,3 +92,26 @@ header hr{
     margin: 40px 50px;
 }
 
+
+.team{
+    margin: 20px 100px;
+}
+
+
+.team ul li img{
+    margin-left: 13px ;
+}
+
+.team ul li p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.para-two{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
