@@ -192,8 +192,13 @@ header hr{
     font-weight: 300;
 }
 
-.btn{
-    color: rgb(28, 31, 65);
+#btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: rgb(28, 31, 65);
+    color: white;
 }
 
 #check{
@@ -236,4 +241,11 @@ footer img{
 footer p{
     font-weight: 300;
     padding-bottom: 150px;
+}
+
+#an-btn{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: rgb(28, 31, 65);
+    color: white;
 }
