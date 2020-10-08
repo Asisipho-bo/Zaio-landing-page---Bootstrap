@@ -112,6 +112,128 @@ header hr{
 .para-two{
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#part-one{
+    font-family: 'Raleway', sans-serif;
+    color:rgb(2, 7, 62) ;
+    font-weight: 600;
+}
+
+#part-two{
+    font-family: 'Raleway', sans-serif;
+    color: #43414e;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+#part-three{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5;
+}
+
+#part-four{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.5;
+}
+
+.col-8 p h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+.bi{
+    color: rgb(240, 161, 14);
+}
+
+#pink{
+    color:#F06292 ;
+}
+
+#navy{
+    color: #9dacbb ;
+}
+
+#green{
+    color: rgb(138, 216, 138) ;
+}
+
+#blue{
+    color: rgb(108, 108, 182) ;
+}
+
+#purple{
+    color: rgb(131, 77, 131);
+}
+
+.programmes{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(240, 243, 248);
+    color:rgb(2, 7, 62) ;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+
+.programmes h1{
+    font-size: 25px;
+}
+
+.programmes h6{
     font-size: 15px;
     font-weight: 300;
+}
+
+.btn{
+    color: rgb(28, 31, 65);
+}
+
+#check{
+    color: green;
+}
+
+.partners{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.apply-now{
+    padding-top: 20px;
+    text-align: center;
+    background-color: #ff9100;
+    height: 400px;
+    color: White;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.apply-now h1{
+    margin-top: 100px;
+    font-size: 75px;
+    font-weight: 600;
+}
+
+footer{
+    background-color:  rgb(22, 50, 91);
+    color: white;
+    text-align: center;
+}
+
+footer img{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+footer p{
+    font-weight: 300;
+    padding-bottom: 150px;
 }
