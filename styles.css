@@ -11,6 +11,7 @@ body{
     font-weight: 600;
     background-color: #ffffff;
     color: rgb(2, 7, 62);
+    overflow-x: hidden;
     
 }
 
@@ -53,19 +54,23 @@ header hr{
     margin-bottom: 30px;
 }
 
-#cards{
-   margin: 40px 100px;
+.info{
+   margin: 40px 150px;
 }
 
-.border {
+
+#info-borders{
     position: relative;
     background: rgb(240, 243, 248);
     text-align: center;
     padding: 20px;
     border: 1px solid rgb(219, 234, 255);
-    border-radius: 50px;
+    border-radius: 25px;
     font-family: 'Raleway', sans-serif;
+    width: 280px;
 }
+
+
 
 
 .border img{
@@ -73,18 +78,20 @@ header hr{
     align-items: center;
 }
 
-.border h1{
+.border h3{
     color:rgb(2, 7, 62) ;
     text-align: center;
     justify-content: center;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .border h5{
     color: #43414e;
     text-align: center;
     justify-content: center;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5em;
 }
 
 
@@ -173,41 +180,93 @@ header hr{
 }
 
 .programmes{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-bottom: 10px;
     background-color: rgb(240, 243, 248);
-    color:rgb(2, 7, 62) ;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
 
 
-.programmes h1{
-    font-size: 25px;
+#p-borders{
+    padding: 25px;
+    margin-right: 35px;
+    text-align: center;
+    width: 290px;
+    height: 900px;
 }
 
-.programmes h6{
-    font-size: 15px;
-    font-weight: 300;
+
+#p-borders1{
+    padding: 25px;
+    text-align: center;
+    width: 290px;
+    height: 900px;
 }
+
+
+.programmes h2{
+    text-align: center;
+    font-weight: 600;
+}
+
+.programmes p{
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.75;
+
+}
+
+#burgundy{
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 14px;
+    color: rgb(173, 66, 0);
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.75;
+}
+
 
 #btn{
     margin-top: 15px;
     margin-bottom: 15px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 75px;
+    padding-right: 75px;
     background-color: rgb(28, 31, 65);
     color: white;
 }
+
+
+
+.check-items li{
+    line-height: 2em;
+    text-align: left;
+}
+
+
 
 #check{
     color: green;
 }
 
+
+
 .partners{
     text-align: center;
     font-family: 'Raleway', sans-serif;
+}
+
+
+
+.partners h6{
+    margin-left: 400px;
+    text-align: center;
+    width: 550px;
+    line-height: 2.5em;
 }
 
 .apply-now{
