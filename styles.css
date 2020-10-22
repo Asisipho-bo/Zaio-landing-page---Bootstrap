@@ -16,7 +16,6 @@ body{
 }
 
 header{
-    margin: 0 2px;
     padding-top: 5px;
     width: 100%;
     position: static;
@@ -38,7 +37,7 @@ header hr{
 }
 
 .page-one img{
-    margin: 30px 118px;
+    margin: 50px 118px;
 }
 
 .catch-phrase{
@@ -189,7 +188,7 @@ header hr{
 }
 
 
-#p-borders{
+.borders{
     padding: 25px;
     margin-right: 35px;
     text-align: center;
@@ -198,11 +197,8 @@ header hr{
 }
 
 
-#p-borders1{
-    padding: 25px;
-    text-align: center;
-    width: 290px;
-    height: 900px;
+.programmes h1{
+    margin-bottom: 30px;
 }
 
 
@@ -285,6 +281,15 @@ header hr{
     font-weight: 600;
 }
 
+
+
+#an-btn{
+    padding: 10px 60px;
+    background-color: rgb(28, 31, 65);
+    color: white;
+}
+
+
 footer{
     background-color:  rgb(22, 50, 91);
     color: white;
@@ -302,9 +307,3 @@ footer p{
     padding-bottom: 150px;
 }
 
-#an-btn{
-    padding-right: 50px;
-    padding-left: 50px;
-    background-color: rgb(28, 31, 65);
-    color: white;
-}

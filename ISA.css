@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 90px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: rgb(2, 7, 62);
+    overflow-x: hidden;
+    
+}
+
+header{
+    padding-top: 5px;
+    width: 100%;
+    position: static;
+    background-color: white;
+}
+ 
+
+header li a{
+    color: rgb(2, 7, 62);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+}
+
+header hr{
+    width: 100%;
+}
+
+.page-one{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(22, 50, 91);
+    font-family: 'Raleway', sans-serif;
+}
+
+.page-one h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.page-one p{
+    margin-bottom: 50px;
+    font-weight: 900;
+    line-height: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+#btn{
+    padding: 10px 100px;
+    background-color: rgb(22, 50, 91); 
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+}
+
+.col iframe{
+    margin-top: 50px;
+}
+
+.payments{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.border{
+    padding: 30px;
+    margin-right: 70px;
+    width: 280px;
+    height: 400px;
+    color: rgb(22, 50, 91); 
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.border h1{
+    color: rgb(22, 50, 91); 
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.border p{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.FAQ{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(22, 50, 91); 
+}
+
+.FAQ h1{
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(22, 50, 91); 
+    font-weight: bold;
+}
+
+.FAQ  h6{
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(22, 50, 91); 
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+#FaqAccordion{
+    margin-left: 170px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.card,.card-header{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.card .card-header button{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(22, 50, 91); 
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
+
+}
+
+
+.bi{
+    margin-right: 50px;
+    margin-left: 400px;
+    color: black;
+    float: right;
+}
+
+
+.apply-now{
+    padding-top: 20px;
+    text-align: center;
+    background-color: #ff9100;
+    height: 400px;
+    color: White;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.apply-now h1{
+    margin-top: 100px;
+    font-size: 75px;
+    font-weight: 600;
+}
+
+
+
+#an-btn{
+    padding: 10px 60px;
+    background-color:rgb(22, 50, 91);
+    color: white;
+    padding: 10px 65px;
+    font-size: 18px;
+}
+
+footer{
+    background-color:  rgb(22, 50, 91);
+    color: white;
+    text-align: center;
+}
+
+footer img{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+footer p{
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 150px;
+}
+
+footer ul li{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+
+}
