@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 90px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgb(22, 50, 91);
+    color: white;
+    overflow-x: hidden;
+    
+}
+
+
+header{
+    padding-top: 3px;
+    padding-bottom: 30px;
+    width: 100%;
+    position: static;
+    background-color: rgb(22, 50, 91);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header hr{
+    color: white;
+}
+
+
+#btn-orange{
+    background-color: rgb(240, 116, 14);
+    border-radius: 5px;
+}
+
+
+.form{
+    margin-top: 150px;
+    margin-left: 200px;
+}
