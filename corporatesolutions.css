@@ -87,7 +87,7 @@ header hr{
 }
 
 .section-two h1{
-    padding-top: 0px;
+    padding-top: 50px;
     margin-bottom: 70px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -113,15 +113,154 @@ header hr{
 
 
 .section-three{
-    margin: 50px 10px;
+    margin: 50px 0;
+    height: 1000px ;
     font-family: 'Raleway', sans-serif;
 }
 
-.section-three h1{
+.section-three h2{
     padding-top: 30px;
     padding-bottom: 90px;
-    color: rgb(15,33,55);
+    color: #0F2138;
     font-weight: 600;
     font-size: 30px;
     text-align: center;
+}
+
+
+.image-2{
+    margin-top: 50px;
+    margin-left: 0;
+    width: 98%;
+}
+
+
+
+/*#shadow{
+    width: 200px;
+    background-color: #F5F7F9;
+
+}
+*/
+
+.section-three ul{
+    width: 500px;
+    list-style-type: none;
+}
+
+
+
+.section-three li{
+    white-space: nowrap;
+
+}
+
+
+.section-three ul li::before{
+    margin-top: 90px;
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    left: -8px;
+    border-radius: 50%;
+    border: 4px solid rgb(228, 220, 220);
+    
+}
+
+.section-three ul li:hover::before{
+    background-color:  rgb(82,104,219) ;
+}
+
+.section-three h1{
+    margin-right: 30px;
+    display: inline-block;
+    color: rgb(236, 232, 232);
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+}
+
+
+.section-three ul::before{
+    content: " ";
+    position: absolute;
+    width: 3px;
+    background-color: whitesmoke;
+    margin-top: 100px;
+    height: 72%;
+    left: 0;
+    top: 0;
+}
+
+
+
+.section-three span{
+    color: #030c16;
+    font-size: 20px;
+}
+
+.section-three p{
+    display: inline-block;
+    color: grey;
+    white-space: pre-line;
+    font-size: 17px;
+
+}
+
+
+
+.section-four{
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 2px;
+}
+
+
+.section-four h1{
+    padding-bottom: 10px;
+    margin-left: 132px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.section-four p{
+    margin-left: 132px;
+    font-size: 17px;
+}
+
+
+.section-five{
+    padding-bottom: 30px;
+    background-color: #ECF0FE;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section-five h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #021122;
+}
+
+
+.section-five h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.border{
+    padding: 10px;
+    width: 344px;
+    height: 405px;
+}
+
+
+.border:hover{
+    border:2px solid rgb(185, 185, 185); 
+    box-shadow: 0 0 10px rgb(170, 167, 167);  
+    -webkit-box-shadow: 0 0 10px rgb(134, 126, 126); 
+    -moz-box-shadow: 0 0 10px rgb(209, 208, 208); 
+    -o-box-shadow: 0 0 10px rgb(209, 208, 208);  
+    -ms-box-shadow: 0 0 10px rgb(165, 161, 161);
 }
