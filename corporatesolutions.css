@@ -264,3 +264,106 @@ header hr{
     -o-box-shadow: 0 0 10px rgb(209, 208, 208);  
     -ms-box-shadow: 0 0 10px rgb(165, 161, 161);
 }
+
+
+.section-six{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    align-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.section-six h1{
+    padding-bottom: 90px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+#accordion{
+    margin-left: 300px;
+    justify-content: center;
+}
+
+
+.card,.card-header{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    font-size: 12px;
+    justify-content: left;
+}
+
+.card .card-header button{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(22, 50, 91); 
+    font-size: 18px;
+    border-bottom: 5px;
+
+}
+
+
+.card-body{
+    font-size: 14px;
+}
+
+
+
+.section-seven{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ECF0FE;
+    text-align: center;
+}
+
+
+.section-seven h1{
+    padding-bottom: 30px;
+    color: #0F2137;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.section-seven p{
+    padding-bottom: 20px;
+    color: #36425a;
+    font-weight: 600;
+}
+
+
+.section-seven button{
+    padding: 10px 110px ;
+    background-color: #FF7B01;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+footer{
+    background-color:  rgb(22, 50, 91);
+    color: white;
+    text-align: center;
+}
+
+footer img{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+footer p{
+    font-weight: 300;
+    padding-bottom: 150px;
+}
+

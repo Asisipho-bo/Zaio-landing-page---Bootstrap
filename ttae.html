@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="hire.css">
+    <link rel="stylesheet" href="ttae.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway"/>
     <title>zaio.io/hire</title>
     <!-- CSS only -->
@@ -22,13 +22,18 @@
                         <div class="d-flex row mt-4">
                             <ul class="list-inline m-0">
                                 <li class="list-inline-item align-content-right">
-                                    <a href="#" class="link-menu">
-                                        <button class="btn rounded pt-2 pb-2 pl-4 pr-4 text-white" id="btn-orange">About Us</button>
+                                    <a href="index.html" class="link-menu">
+                                        <button class="btn rounded pt-2 pb-2 pl-4 pr-4 text-white" id="btn-dark">For Learners</button>
                                     </a>
                                 </li>
                                 <li class="list-inline-item align-content-right">
-                                    <a href="Corporatesolutions.html" class="link-menu">
-                                        <button class="btn rounded pt-2 pb-2 pl-4 pr-4 text-white" id="btn-orange">Corporate Solutions</button>
+                                    <a href="hire.html" class="link-menu">
+                                        <button class="btn rounded pt-2 pb-2 pl-4 pr-4 text-white" id="btn-orange">Hire Talent</button>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item align-content-right">
+                                    <a href="#" class="link-menu">
+                                        <button class="btn rounded pt-2 pb-2 pl-4 pr-4 text-white" id="btn-orange">Talk to an Expert</button>
                                     </a>
                                 </li>
                             </ul>
@@ -37,13 +42,45 @@
                 </div>
             </nav>
         </div>
-        <hr>
+        <hr class="bg-secondary">
+        <h1>Talk to an Expert</h1>
+        <p>If you have any questions or are looking to get involved, drop us a line and we'll be happy to be of service.</p>
     </header>
 
-    <div class="form">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class= "mt-5" src="https://docs.google.com/forms/d/e/1FAIpQLSdkeb_-n8kTgabisz4cviYz8zQF8CRneKdChmLetyksSkslSg/viewform?embedded=true" width="640" height="393" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
+    <div class="form pt-3 pb-5">
+        <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="fullNameInput1" placeholder="Full Name *">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="companyNameInput2" placeholder="Company Name *">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="positionInput3" placeholder="Position *">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="emailAddressInput4" placeholder="Email Address *">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="ReasonInput5" placeholder="Reason *">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="contactNumberInput2" placeholder="Contact Number *">
+            </div>
+            <div class="form-group">
+                <select name="socialMedia" id="socialMedia">
+                    <option value="socialmedia">Social Media</option>
+                    <option value="Linkedin">Linkedin</option>
+                    <option value="Event/Conference">Event/Conference</option>
+                    <option value="opel">Zaio customer</option>
+                    <option value="wordofmouth">Word of mouth</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="button" id="submit" class="btn text-white">Secondary</button>
+            </div>
+          </form>
     </div>
 
     <footer>
@@ -57,8 +94,6 @@
         </ul>
         <p>Copyright 2020 Zaio Technology. All rights reserved.</p>
     </footer>
-
-   
     
 
 
